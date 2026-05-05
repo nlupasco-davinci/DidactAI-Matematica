@@ -1,5 +1,5 @@
 {
   "name": "DidactAI Matematica",
-  "description": "Platformă educațională inteligentă pentru elevii de gimnaziu, integrând servicii ML locale pe date structurate și nestructurate pentru personalizarea procesului de învățare și pregătire pentru Evaluarea Națională pentru clasa a 9-a.",
+  "description": "Aplicație educațională bazată pe inteligență artificială care ghidează elevii pas cu pas în rezolvarea problemelor de matematică, adaptându-se nivelului lor și curriculumului național.",
   "requestFramePermissions": []
 }
