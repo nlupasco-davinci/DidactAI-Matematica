@@ -51,4 +51,4 @@ Aplicația este deja configurată să folosească Firebase.
 
 ---
 Creat cu dragoste pentru elevii din Republica Moldova.
-**Autori: Poleacov Daavid, Bătrînu Beatrice. Coordonatori Lupașco Natalia și Căruceru Sergiu**
+**Autori: Poleacov David, Bătrînu Beatrice. Coordonatori Lupașco Natalia și Căruceru Sergiu**
