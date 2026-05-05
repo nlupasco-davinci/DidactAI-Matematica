@@ -1,0 +1,56 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile and global progress",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Firebase Auth UID" },
+        "displayName": { "type": "string", "description": "User's display name" },
+        "email": { "type": "string", "format": "email", "description": "User's email" },
+        "photoURL": { "type": "string", "format": "uri", "description": "User's photo URL" },
+        "level": { "type": "string", "description": "User's current level (e.g., Explorator)" },
+        "xp": { "type": "number", "description": "Experience points" },
+        "totalSolved": { "type": "number", "description": "Total number of problems solved" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Account creation date" }
+      },
+      "required": ["uid", "email"]
+    },
+    "SolvedProblem": {
+      "title": "Solved Problem",
+      "description": "A problem solved by a user",
+      "type": "object",
+      "properties": {
+        "problemId": { "type": "string", "description": "ID of the problem" },
+        "topicId": { "type": "string", "description": "ID of the topic" },
+        "difficulty": { "type": "string", "description": "Problem difficulty" },
+        "solvedAt": { "type": "string", "format": "date-time", "description": "When the problem was solved" }
+      },
+      "required": ["problemId", "topicId", "solvedAt"]
+    },
+    "GlobalStats": {
+      "title": "Global Stats",
+      "description": "Global platform statistics for teachers",
+      "type": "object",
+      "properties": {
+        "visitors": { "type": "number", "description": "Total unique visitors" },
+        "totalCorrect": { "type": "number", "description": "Total correct answers across the platform" },
+        "totalIncorrect": { "type": "number", "description": "Total incorrect answers across the platform" }
+      }
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profile data"
+    },
+    "/users/{userId}/solvedProblems/{problemId}": {
+      "schema": "SolvedProblem",
+      "description": "List of problems solved by the user"
+    },
+    "/stats/global": {
+      "schema": "GlobalStats",
+      "description": "Global statistics for the platform"
+    }
+  }
+}
