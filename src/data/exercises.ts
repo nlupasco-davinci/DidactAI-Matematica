@@ -21,12 +21,12 @@ export interface CategorieInfo {
 }
 
 export const categorii: Record<string, CategorieInfo> = {
-  multimi_numerice: { name: "Mulțimi numerice (N, Z, Q, R)", icon: "🔢", color: "#10b981", domeniu: "Algebră" },
+  multimi_numerice: { name: "Mulțimi de numere (N, Z, Q, R)", icon: "🔢", color: "#10b981", domeniu: "Algebră" },
   rapoarte: { name: "Rapoarte, proporții și procente", icon: "💯", color: "#f97316", domeniu: "Algebră" },
   calcul_algebric: { name: "Calcul algebric și puteri", icon: "🔣", color: "#ec4899", domeniu: "Algebră" },
-  ecuatii_sisteme: { name: "Ecuații, inecuații și sisteme de ecuații", icon: "⚖️", color: "#8b5cf6", domeniu: "Algebră" },
+  ecuatii_sisteme: { name: "Ecuații, inecuații și sisteme", icon: "⚖️", color: "#8b5cf6", domeniu: "Algebră" },
   functii: { name: "Funcții", icon: "📈", color: "#f43f5e", domeniu: "Algebră" },
-  geometrie: { name: "Geometrie plană și în spațiu", icon: "📐", color: "#06b6d4", domeniu: "Geometrie" },
+  geometrie: { name: "Geometrie Plană și în Spațiu", icon: "📐", color: "#06b6d4", domeniu: "Geometrie" },
 };
 
 export const exercises: Problem[] = [
@@ -162,7 +162,7 @@ export const exercises: Problem[] = [
     solution: "d = a\u221a3 \u2192 4\u221a3 = a\u221a3 \u2192 a = 4 cm",
     answer: "4 cm",
     difficulty: 2,
-    domeniu: "Geometrie în  spațiu  - Cuburi",
+    domeniu: "Geometrie 3D - Cuburi",
     categorie: "geometrie"
   },
   {
@@ -170,7 +170,7 @@ export const exercises: Problem[] = [
     source: "Exersare Test 1 - 2020",
     problem: "G\u0103si\u021bi r\u0103d\u0103cinile lui P(x) = (x\u00b2\u22121)(x\u00b2\u22124) \u2212 3x\u00b2 \u2212 3.",
     solution: "P(x) = x\u2074 - 8x\u00b2 + 1. y = x\u00b2: y = 4 \u00b1 \u221a15",
-    answer: "x = \u00b1 \u221a(4+\u221a15), \u00b1\u221a(4-\u221a15)",
+    answer: "x = \u00b1\u221a(4+\u221a15), \u00b1\u221a(4-\u221a15)",
     difficulty: 3,
     domeniu: "Polinoame",
     categorie: "calcul_algebric"
@@ -282,7 +282,7 @@ export const exercises: Problem[] = [
     solution: "V = (1/3)\u00b7l\u00b2\u00b7h = (1/3)\u00b7l\u00b2\u00b7(l/2) = l\u00b3/6 = 36 \u2192 l\u00b3 = 216 \u2192 l = 6 cm",
     answer: "6 cm",
     difficulty: 2,
-    domeniu: "Geometrie în  spațiu  - Piramide",
+    domeniu: "Geometrie 3D - Piramide",
     categorie: "geometrie"
   },
   {
@@ -465,7 +465,7 @@ export const exercises: Problem[] = [
     solution: "V = l\u00b3 = 2\u00b3 = 8 cm\u00b3",
     answer: "8 cm\u00b3",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cub",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "V = l\u00b3."
   },
@@ -520,7 +520,7 @@ export const exercises: Problem[] = [
     solution: "Al = (Pb \u00d7 ap)/2 = (24 \u00d7 5)/2 = 60",
     answer: "60",
     difficulty: 2,
-    domeniu: "Geometrie în  spațiu  - Piramid\u0103",
+    domeniu: "Geometrie 3D - Piramid\u0103",
     categorie: "geometrie",
     hint: "Pb este perimetrul bazei."
   },
@@ -586,7 +586,7 @@ export const exercises: Problem[] = [
     solution: "V = (1/3)\u03c0r\u00b2h = (1/3)\u03c0 \u00d7 9 \u00d7 4 = 12\u03c0",
     answer: "12\u03c0",
     difficulty: 2,
-    domeniu: "Geometrie în  spațiu  - Con",
+    domeniu: "Geometrie 3D - Con",
     categorie: "geometrie",
     hint: "Formula este (1/3)\u03c0r\u00b2h."
   },
@@ -641,7 +641,7 @@ export const exercises: Problem[] = [
     solution: "$A_t = 2\\pi r(r+h) = 2\\pi \\cdot 2 \\cdot (2+5) = 28\\pi$",
     answer: "28\u03c0",
     difficulty: 2,
-    domeniu: "Geometrie în  spațiu  - Cilindru",
+    domeniu: "Geometrie 3D - Cilindru",
     categorie: "geometrie",
     hint: "Formula este 2\u03c0r(r+h)."
   },
@@ -718,7 +718,7 @@ export const exercises: Problem[] = [
     solution: "V = (Ab \u00d7 h)/3 = (20 \u00d7 6)/3 = 40",
     answer: "40",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Piramid\u0103",
+    domeniu: "Geometrie 3D - Piramid\u0103",
     categorie: "geometrie",
     hint: "Formula este (Ab \u00d7 h)/3."
   },
@@ -850,7 +850,7 @@ export const exercises: Problem[] = [
     solution: "V = \u03c0r\u00b2h = \u03c0 \u00d7 1 \u00d7 10 = 10\u03c0",
     answer: "10\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cilindru",
+    domeniu: "Geometrie 3D - Cilindru",
     categorie: "geometrie",
     hint: "\u03c0r\u00b2h."
   },
@@ -1015,7 +1015,7 @@ export const exercises: Problem[] = [
     solution: "4l = 12 \u2192 l = 3. V = 3\u00b3 = 27",
     answer: "27",
     difficulty: 2,
-    domeniu: "Geometrie în  spațiu  - Cub",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "Afl\u0103 latura din perimetrul fe\u021bei."
   },
@@ -1070,7 +1070,7 @@ export const exercises: Problem[] = [
     solution: "Al = \u03c0rg = 50\u03c0",
     answer: "50\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Con",
+    domeniu: "Geometrie 3D - Con",
     categorie: "geometrie",
     hint: "\u03c0rg."
   },
@@ -1136,7 +1136,7 @@ export const exercises: Problem[] = [
     solution: "r = 3. V = (4/3)\u03c0r\u00b3 = 36\u03c0",
     answer: "36\u03c0",
     difficulty: 2,
-    domeniu: "Geometrie în  spațiu  - Sfer\u0103",
+    domeniu: "Geometrie 3D - Sfer\u0103",
     categorie: "geometrie",
     hint: "Raza este d/2."
   },
@@ -1158,7 +1158,7 @@ export const exercises: Problem[] = [
     solution: "A = (10+6) \u00d7 3 / 2 = 24",
     answer: "24",
     difficulty: 1,
-    domeniu: "Geometrie - Trapezul",
+    domeniu: "Geometrie - Trapez",
     categorie: "geometrie",
     hint: "(B+b)h/2."
   },
@@ -1191,7 +1191,7 @@ export const exercises: Problem[] = [
     solution: "At = 6 \u00d7 4\u00b2 = 96",
     answer: "96",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cub",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "6 \u00d7 l\u00b2."
   },
@@ -1268,7 +1268,7 @@ export const exercises: Problem[] = [
     solution: "V = (30 \u00d7 9)/3 = 90",
     answer: "90",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Piramid\u0103",
+    domeniu: "Geometrie 3D - Piramid\u0103",
     categorie: "geometrie",
     hint: "(Ab \u00d7 h)/3."
   },
@@ -1290,7 +1290,7 @@ export const exercises: Problem[] = [
     solution: "A = 60",
     answer: "60",
     difficulty: 1,
-    domeniu: "Geometrie - Dreptunghiul",
+    domeniu: "Geometrie - Dreptunghi",
     categorie: "geometrie",
     hint: "L \u00d7 l."
   },
@@ -1323,7 +1323,7 @@ export const exercises: Problem[] = [
     solution: "A = 20",
     answer: "20",
     difficulty: 1,
-    domeniu: "Geometrie - Triunghiul",
+    domeniu: "Geometrie - Triunghi",
     categorie: "geometrie",
     hint: "b \u00d7 h / 2."
   },
@@ -1367,7 +1367,7 @@ export const exercises: Problem[] = [
     solution: "36\u03c0",
     answer: "36\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie - Cercul",
+    domeniu: "Geometrie - Cerc",
     categorie: "geometrie",
     hint: "\u03c0r\u00b2."
   },
@@ -1400,7 +1400,7 @@ export const exercises: Problem[] = [
     solution: "20\u03c0",
     answer: "20\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cilindrul",
+    domeniu: "Geometrie 3D - Cilindru",
     categorie: "geometrie",
     hint: "\u03c0r\u00b2h."
   },
@@ -1422,7 +1422,7 @@ export const exercises: Problem[] = [
     solution: "144",
     answer: "144",
     difficulty: 1,
-    domeniu: "Geometrie - P\u0103tratul",
+    domeniu: "Geometrie - P\u0103trat",
     categorie: "geometrie",
     hint: "12\u00b2."
   },
@@ -1455,7 +1455,7 @@ export const exercises: Problem[] = [
     solution: "30",
     answer: "30",
     difficulty: 1,
-    domeniu: "Geometrie - Triunghiiul",
+    domeniu: "Geometrie - Triunghi",
     categorie: "geometrie",
     hint: "5 \u00d7 12 / 2."
   },
@@ -1499,7 +1499,7 @@ export const exercises: Problem[] = [
     solution: "30",
     answer: "30",
     difficulty: 1,
-    domeniu: "Geometrie - Rombul",
+    domeniu: "Geometrie - Romb",
     categorie: "geometrie",
     hint: "6 \u00d7 10 / 2."
   },
@@ -1543,7 +1543,7 @@ export const exercises: Problem[] = [
     solution: "l = 8. A = 64",
     answer: "64",
     difficulty: 1,
-    domeniu: "Geometrie - P\u0103tratul",
+    domeniu: "Geometrie - P\u0103trat",
     categorie: "geometrie",
     hint: "d = l\u221a2."
   },
@@ -1565,7 +1565,7 @@ export const exercises: Problem[] = [
     solution: "125",
     answer: "125",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cubul",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "5\u00b3."
   },
@@ -1587,7 +1587,7 @@ export const exercises: Problem[] = [
     solution: "\u221a3",
     answer: "\u221a3",
     difficulty: 2,
-    domeniu: "Geometrie - Triunghiul",
+    domeniu: "Geometrie - Triunghi",
     categorie: "geometrie",
     hint: "(l\u00b2\u221a3)/4."
   },
@@ -1620,7 +1620,7 @@ export const exercises: Problem[] = [
     solution: "20\u03c0",
     answer: "20\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Conul",
+    domeniu: "Geometrie 3D - Con",
     categorie: "geometrie",
     hint: "\u03c0rg."
   },
@@ -1653,7 +1653,7 @@ export const exercises: Problem[] = [
     solution: "24",
     answer: "24",
     difficulty: 1,
-    domeniu: "Geometrie - Rombul",
+    domeniu: "Geometrie - Romb",
     categorie: "geometrie",
     hint: "d1 \u00d7 d2 / 2."
   },
@@ -1686,7 +1686,7 @@ export const exercises: Problem[] = [
     solution: "4\u03c0/3",
     answer: "4\u03c0/3",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Sfera",
+    domeniu: "Geometrie 3D - Sfer\u0103",
     categorie: "geometrie",
     hint: "(4/3)\u03c0r\u00b3."
   },
@@ -1708,7 +1708,7 @@ export const exercises: Problem[] = [
     solution: "40",
     answer: "40",
     difficulty: 1,
-    domeniu: "Geometrie - Trapezul",
+    domeniu: "Geometrie - Trapez",
     categorie: "geometrie",
     hint: "(B+b)h/2."
   },
@@ -1741,7 +1741,7 @@ export const exercises: Problem[] = [
     solution: "6",
     answer: "6",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cubul",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "6 \u00d7 l\u00b2."
   },
@@ -1785,7 +1785,7 @@ export const exercises: Problem[] = [
     solution: "4",
     answer: "4",
     difficulty: 1,
-    domeniu: "Geometrie - P\u0103tratul",
+    domeniu: "Geometrie - P\u0103trat",
     categorie: "geometrie",
     hint: "l = P/4."
   },
@@ -1818,7 +1818,7 @@ export const exercises: Problem[] = [
     solution: "50",
     answer: "50",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Piramida",
+    domeniu: "Geometrie 3D - Piramid\u0103",
     categorie: "geometrie",
     hint: "(Ab \u00d7 h)/3."
   },
@@ -1840,7 +1840,7 @@ export const exercises: Problem[] = [
     solution: "200",
     answer: "200",
     difficulty: 1,
-    domeniu: "Geometrie - Dreptunghiul",
+    domeniu: "Geometrie - Dreptunghi",
     categorie: "geometrie",
     hint: "L \u00d7 l."
   },
@@ -1873,7 +1873,7 @@ export const exercises: Problem[] = [
     solution: "30",
     answer: "30",
     difficulty: 1,
-    domeniu: "Geometrie - Triunghiul",
+    domeniu: "Geometrie - Triunghi",
     categorie: "geometrie",
     hint: "6 \u00d7 10 / 2."
   },
@@ -1950,7 +1950,7 @@ export const exercises: Problem[] = [
     solution: "50\u03c0",
     answer: "50\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cilindru",
+    domeniu: "Geometrie 3D - Cilindru",
     categorie: "geometrie",
     hint: "\u03c0r\u00b2h."
   },
@@ -1972,7 +1972,7 @@ export const exercises: Problem[] = [
     solution: "225",
     answer: "225",
     difficulty: 1,
-    domeniu: "Geometrie - P\u0103tratul",
+    domeniu: "Geometrie - P\u0103trat",
     categorie: "geometrie",
     hint: "15\u00b2."
   },
@@ -2005,7 +2005,7 @@ export const exercises: Problem[] = [
     solution: "24",
     answer: "24",
     difficulty: 1,
-    domeniu: "Geometrie - Triunghiul",
+    domeniu: "Geometrie - Triunghi",
     categorie: "geometrie",
     hint: "6 \u00d7 8 / 2."
   },
@@ -2049,7 +2049,7 @@ export const exercises: Problem[] = [
     solution: "48",
     answer: "48",
     difficulty: 1,
-    domeniu: "Geometrie - Rombul",
+    domeniu: "Geometrie - Romb",
     categorie: "geometrie",
     hint: "8 \u00d7 12 / 2."
   },
@@ -2115,7 +2115,7 @@ export const exercises: Problem[] = [
     solution: "64",
     answer: "64",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cubul",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "4\u00b3."
   },
@@ -2137,7 +2137,7 @@ export const exercises: Problem[] = [
     solution: "9\u221a3",
     answer: "9\u221a3",
     difficulty: 2,
-    domeniu: "Geometrie - Triunghiul",
+    domeniu: "Geometrie - Triunghi",
     categorie: "geometrie",
     hint: "(l\u00b2\u221a3)/4."
   },
@@ -2170,7 +2170,7 @@ export const exercises: Problem[] = [
     solution: "60\u03c0",
     answer: "60\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Conul",
+    domeniu: "Geometrie 3D - Con",
     categorie: "geometrie",
     hint: "\u03c0rg."
   },
@@ -2203,7 +2203,7 @@ export const exercises: Problem[] = [
     solution: "60",
     answer: "60",
     difficulty: 1,
-    domeniu: "Geometrie - Rombul",
+    domeniu: "Geometrie - Romb",
     categorie: "geometrie",
     hint: "d1 \u00d7 d2 / 2."
   },
@@ -2236,7 +2236,7 @@ export const exercises: Problem[] = [
     solution: "32\u03c0/3",
     answer: "32\u03c0/3",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Sfera",
+    domeniu: "Geometrie 3D - Sfer\u0103",
     categorie: "geometrie",
     hint: "(4/3)\u03c0r\u00b3."
   },
@@ -2258,7 +2258,7 @@ export const exercises: Problem[] = [
     solution: "75",
     answer: "75",
     difficulty: 1,
-    domeniu: "Geometrie - Trapezul",
+    domeniu: "Geometrie - Trapez",
     categorie: "geometrie",
     hint: "(B+b)h/2."
   },
@@ -2291,7 +2291,7 @@ export const exercises: Problem[] = [
     solution: "150",
     answer: "150",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cubul",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "6 \u00d7 l\u00b2."
   },
@@ -2368,7 +2368,7 @@ export const exercises: Problem[] = [
     solution: "10",
     answer: "10",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Piramida",
+    domeniu: "Geometrie 3D - Piramid\u0103",
     categorie: "geometrie",
     hint: "(Ab \u00d7 h)/3."
   },
@@ -2423,7 +2423,7 @@ export const exercises: Problem[] = [
     solution: "50",
     answer: "50",
     difficulty: 1,
-    domeniu: "Geometrie - Triunghiul",
+    domeniu: "Geometrie - Triunghi",
     categorie: "geometrie",
     hint: "b \u00d7 h / 2."
   },
@@ -2467,7 +2467,7 @@ export const exercises: Problem[] = [
     solution: "\u03c0",
     answer: "\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie - Cercul",
+    domeniu: "Geometrie - Cerc",
     categorie: "geometrie",
     hint: "\u03c0r\u00b2."
   },
@@ -2500,7 +2500,7 @@ export const exercises: Problem[] = [
     solution: "9\u03c0",
     answer: "9\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cilindrul",
+    domeniu: "Geometrie 3D - Cilindru",
     categorie: "geometrie",
     hint: "\u03c0r\u00b2h."
   },
@@ -2522,7 +2522,7 @@ export const exercises: Problem[] = [
     solution: "400",
     answer: "400",
     difficulty: 1,
-    domeniu: "Geometrie - P\u0103tratul",
+    domeniu: "Geometrie - P\u0103trat",
     categorie: "geometrie",
     hint: "20\u00b2."
   },
@@ -2555,7 +2555,7 @@ export const exercises: Problem[] = [
     solution: "50",
     answer: "50",
     difficulty: 1,
-    domeniu: "Geometrie - Triunghiul",
+    domeniu: "Geometrie - Triunghi",
     categorie: "geometrie",
     hint: "10 \u00d7 10 / 2."
   },
@@ -2599,7 +2599,7 @@ export const exercises: Problem[] = [
     solution: "100",
     answer: "100",
     difficulty: 1,
-    domeniu: "Geometrie - Rombul",
+    domeniu: "Geometrie - Romb",
     categorie: "geometrie",
     hint: "2 \u00d7 100 / 2."
   },
@@ -2643,7 +2643,7 @@ export const exercises: Problem[] = [
     solution: "l = 12. A = 144",
     answer: "144",
     difficulty: 1,
-    domeniu: "Geometrie - P\u0103tratul",
+    domeniu: "Geometrie - P\u0103trat",
     categorie: "geometrie",
     hint: "d = l\u221a2."
   },
@@ -2665,7 +2665,7 @@ export const exercises: Problem[] = [
     solution: "216",
     answer: "216",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cubul",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "6\u00b3."
   },
@@ -2687,7 +2687,7 @@ export const exercises: Problem[] = [
     solution: "16\u221a3",
     answer: "16\u221a3",
     difficulty: 2,
-    domeniu: "Geometrie - Triunghiul",
+    domeniu: "Geometrie - Triunghi",
     categorie: "geometrie",
     hint: "(l\u00b2\u221a3)/4."
   },
@@ -2720,7 +2720,7 @@ export const exercises: Problem[] = [
     solution: "80\u03c0",
     answer: "80\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Conul",
+    domeniu: "Geometrie 3D - Con",
     categorie: "geometrie",
     hint: "\u03c0rg."
   },
@@ -2786,7 +2786,7 @@ export const exercises: Problem[] = [
     solution: "36\u03c0",
     answer: "36\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Sfer\u0103",
+    domeniu: "Geometrie 3D - Sfer\u0103",
     categorie: "geometrie",
     hint: "(4/3)\u03c0r\u00b3."
   },
@@ -2808,7 +2808,7 @@ export const exercises: Problem[] = [
     solution: "250",
     answer: "250",
     difficulty: 1,
-    domeniu: "Geometrie - Trapezul",
+    domeniu: "Geometrie - Trapez",
     categorie: "geometrie",
     hint: "(B+b)h/2."
   },
@@ -2841,7 +2841,7 @@ export const exercises: Problem[] = [
     solution: "600",
     answer: "600",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cub",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "6 \u00d7 l\u00b2."
   },
@@ -2885,7 +2885,7 @@ export const exercises: Problem[] = [
     solution: "16",
     answer: "16",
     difficulty: 1,
-    domeniu: "Geometrie - P\u0103tratul",
+    domeniu: "Geometrie - P\u0103trat",
     categorie: "geometrie",
     hint: "l = P/4."
   },
@@ -2918,7 +2918,7 @@ export const exercises: Problem[] = [
     solution: "40",
     answer: "40",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Piramida",
+    domeniu: "Geometrie 3D - Piramid\u0103",
     categorie: "geometrie",
     hint: "(Ab \u00d7 h)/3."
   },
@@ -2973,7 +2973,7 @@ export const exercises: Problem[] = [
     solution: "100",
     answer: "100",
     difficulty: 1,
-    domeniu: "Geometrie - Triunghiul",
+    domeniu: "Geometrie - Triunghi",
     categorie: "geometrie",
     hint: "b \u00d7 h / 2."
   },
@@ -3050,7 +3050,7 @@ export const exercises: Problem[] = [
     solution: "100\u03c0",
     answer: "100\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cilindru",
+    domeniu: "Geometrie 3D - Cilindru",
     categorie: "geometrie",
     hint: "\u03c0r\u00b2h."
   },
@@ -3215,7 +3215,7 @@ export const exercises: Problem[] = [
     solution: "1000",
     answer: "1000",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cub",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "10\u00b3."
   },
@@ -3270,7 +3270,7 @@ export const exercises: Problem[] = [
     solution: "200\u03c0",
     answer: "200\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Con",
+    domeniu: "Geometrie 3D - Con",
     categorie: "geometrie",
     hint: "\u03c0rg."
   },
@@ -3336,7 +3336,7 @@ export const exercises: Problem[] = [
     solution: "4000\u03c0/3",
     answer: "4000\u03c0/3",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Sfer\u0103",
+    domeniu: "Geometrie 3D - Sfer\u0103",
     categorie: "geometrie",
     hint: "(4/3)\u03c0r\u00b3."
   },
@@ -3391,7 +3391,7 @@ export const exercises: Problem[] = [
     solution: "600",
     answer: "600",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cub",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "6 \u00d7 l\u00b2."
   },
@@ -3468,7 +3468,7 @@ export const exercises: Problem[] = [
     solution: "100",
     answer: "100",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Piramid\u0103",
+    domeniu: "Geometrie 3D - Piramid\u0103",
     categorie: "geometrie",
     hint: "(Ab \u00d7 h)/3."
   },
@@ -3600,7 +3600,7 @@ export const exercises: Problem[] = [
     solution: "10\u03c0",
     answer: "10\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cilindru",
+    domeniu: "Geometrie 3D - Cilindru",
     categorie: "geometrie",
     hint: "\u03c0r\u00b2h."
   },
@@ -3765,7 +3765,7 @@ export const exercises: Problem[] = [
     solution: "1",
     answer: "1",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cub",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "1\u00b3."
   },
@@ -3820,7 +3820,7 @@ export const exercises: Problem[] = [
     solution: "10\u03c0",
     answer: "10\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Con",
+    domeniu: "Geometrie 3D - Con",
     categorie: "geometrie",
     hint: "\u03c0rg."
   },
@@ -3886,7 +3886,7 @@ export const exercises: Problem[] = [
     solution: "288\u03c0",
     answer: "288\u03c0",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Sfer\u0103",
+    domeniu: "Geometrie 3D - Sfer\u0103",
     categorie: "geometrie",
     hint: "(4/3)\u03c0r\u00b3."
   },
@@ -3941,7 +3941,7 @@ export const exercises: Problem[] = [
     solution: "24",
     answer: "24",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Cub",
+    domeniu: "Geometrie 3D - Cub",
     categorie: "geometrie",
     hint: "6 \u00d7 l\u00b2."
   },
@@ -4018,7 +4018,7 @@ export const exercises: Problem[] = [
     solution: "100",
     answer: "100",
     difficulty: 1,
-    domeniu: "Geometrie în  spațiu  - Piramid\u0103",
+    domeniu: "Geometrie 3D - Piramid\u0103",
     categorie: "geometrie",
     hint: "(Ab \u00d7 h)/3."
   },
