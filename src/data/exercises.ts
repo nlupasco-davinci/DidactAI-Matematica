@@ -168,9 +168,9 @@ export const exercises: Problem[] = [
   {
     id: "10",
     source: "Exersare Test 1 - 2020",
-    problem: "G\u0103si\u021bi r\u010 în spațiu \u0103cinile lui P(x) = (x\u00b2\u22121)(x\u00b2\u22124) \u2212 3x\u00b2 \u2212 3.",
+    problem: "G\u0103si\u021bi r\u0103d\u0103cinile lui P(x) = (x\u00b2\u22121)(x\u00b2\u22124) \u2212 3x\u00b2 \u2212 3.",
     solution: "P(x) = x\u2074 - 8x\u00b2 + 1. y = x\u00b2: y = 4 \u00b1 \u221a15",
-    answer: "x = \u00b1\u221a(4+\u221a15), \u00b1\u221a(4-\u221a15)",
+    answer: "x = \u00b1 \u221a(4+\u221a15), \u00b1\u221a(4-\u221a15)",
     difficulty: 3,
     domeniu: "Polinoame",
     categorie: "calcul_algebric"
