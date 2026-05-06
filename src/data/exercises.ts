@@ -21,7 +21,7 @@ export interface CategorieInfo {
 }
 
 export const categorii: Record<string, CategorieInfo> = {
-  multimi_numerice: { name: "Mulțimi de numere (N, Z, Q, R)", icon: "🔢", color: "#10b981", domeniu: "Algebră" },
+  multimi_numerice: { name: "Mulțimi numerice (N, Z, Q, R)", icon: "🔢", color: "#10b981", domeniu: "Algebră" },
   rapoarte: { name: "Rapoarte, proporții și procente", icon: "💯", color: "#f97316", domeniu: "Algebră" },
   calcul_algebric: { name: "Calcul algebric și puteri", icon: "🔣", color: "#ec4899", domeniu: "Algebră" },
   ecuatii_sisteme: { name: "Ecuații, inecuații și sisteme de ecuații", icon: "⚖️", color: "#8b5cf6", domeniu: "Algebră" },
